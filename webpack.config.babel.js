@@ -1,6 +1,6 @@
-import path from 'path'
-import webpack from 'webpack'
-import WebpackNotifierPlugin from 'webpack-notifier'
+import path from 'path';
+import webpack from 'webpack';
+import WebpackNotifierPlugin from 'webpack-notifier';
 
 let config = {
   context: path.join(__dirname, 'src'),
@@ -64,6 +64,6 @@ if (process.env.NODE_ENV === 'production') {
       }
     })
   ]
-}
+};
 
-export default config
+export default config;
